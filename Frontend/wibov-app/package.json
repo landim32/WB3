@@ -1,0 +1,74 @@
+{
+  "name": "gehr-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-regular-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/icons-material": "^6.1.4",
+    "@mui/material": "^6.1.4",
+    "@mui/styles": "^6.1.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react-big-calendar": "^1.15.0",
+    "axios": "^1.7.7",
+    "bootstrap": "^5.3.3",
+    "date-fns": "^4.1.0",
+    "react": "^18.3.1",
+    "react-big-calendar": "^1.15.0",
+    "react-bootstrap": "^2.10.5",
+    "react-currency-input-field": "^3.8.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^18.3.1",
+    "react-dotenv": "^0.1.3",
+    "react-ga": "^3.3.1",
+    "react-loading-skeleton": "^3.5.0",
+    "react-native-svg": "^15.8.0",
+    "react-router-dom": "^6.27.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4",
+    "web3": "^4.13.0"
+  },
+  "scripts": {
+    "start": "react-dotenv && react-scripts start",
+    "build": "react-dotenv && react-scripts build",
+    "test": "react-dotenv && react-scripts test",
+    "eject": "react-dotenv && react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "react-dotenv": {
+    "whitelist": [
+      "NODE_PATH",
+      "REACT_APP_PRODUCTION",
+      "PORT",
+      "GEHR_TOKEN_CONTRACT",
+      "GEHR_CONTRACT",
+      "REACT_APP_NETWORK",
+      "REACT_APP_CHAIN_URL",
+      "REACT_APP_CHAIN_NAME",
+      "REACT_APP_CHAIN_EXPLORER"
+    ]
+  }
+}
