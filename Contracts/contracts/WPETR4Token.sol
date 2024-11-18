@@ -39,6 +39,23 @@ contract WPETR4Token is ERC20, IWIBOVToken, Ownable {
         //console.log("newMaxSupply=%s", _maxSupply);
     }
 
+    function _transfer(address from, address to, uint256 amount) internal override {
+        require(from != address(0), "ERC20: transfer from the zero address");
+        require(to != address(0), "ERC20: transfer to the zero address");
+
+        uint256 fromBalance = balanceOf(_msgSender());
+        require(fromBalance >= amount, "ERC20: transfer amount exceeds balance");
+
+        uint256 _amount = amount;
+        uint256 _fee = ((amount * 2) / 1000);
+        if (owner() != address(0)) {
+            _amount -= _fee;
+            super._transfer(from, owner(), _fee);
+        }
+
+        super._transfer(from, to, _amount);
+    }
+
     function isWibovToken() public override pure returns (bool) {
         return true;
     }
