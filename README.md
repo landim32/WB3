@@ -1,11 +1,11 @@
-# **WIBOV (Wrapped IBOV) - IBOV Empacotado**  
+# **WB3 (Wrapped B3) - B3 Empacotado**  
 ### **Um Projeto Inovador para Tokenizar Ações da Bolsa Brasileira**  
 
 ---
 
 ## **Resumo Executivo**  
 
-WIBOV (Wrapped IBOV) é uma iniciativa revolucionária que visa conectar o mercado tradicional de ações brasileiras com o ecossistema de blockchain. O projeto permite que ativos da Bolsa de Valores do Brasil sejam representados como tokens digitais, proporcionando liquidez, acessibilidade e a possibilidade de negociação 24/7.  
+WB3 (Wrapped B3) é uma iniciativa revolucionária que visa conectar o mercado tradicional de ações brasileiras com o ecossistema de blockchain. O projeto permite que ativos da Bolsa de Valores do Brasil sejam representados como tokens digitais, proporcionando liquidez, acessibilidade e a possibilidade de negociação 24/7.  
 
 Com a tecnologia de Atomic Swaps, os tokens WIBOV oferecem transparência e segurança aos investidores, garantindo que cada transação esteja diretamente vinculada a ativos reais. Este whitepaper detalha o funcionamento técnico e as vantagens do projeto, explicando os processos de criação, transação, queima de tokens e a distribuição de dividendos.  
 
@@ -24,7 +24,7 @@ WIBOV resolve essas questões transformando ações da Bolsa Brasileira em token
 ## **Funcionamento Técnico**  
 
 ### **1. Criação de Tokens (Mint)**  
-A criação de tokens WIBOV é feita por meio de contratos inteligentes open-source baseados em Atomic Swaps.  
+A criação de tokens WB3 é feita por meio de contratos inteligentes open-source baseados em Atomic Swaps.  
 
 #### **Passo a Passo**  
 1. **Acesse:** Visite [https://wibov.com/mint](https://wibov.com/mint).  
@@ -91,7 +91,7 @@ Os investidores em tokens WIBOV têm direito a receber os dividendos gerados pel
 
 ---
 
-## **Benefícios do WIBOV**  
+## **Benefícios do WB3**  
 
 ### **Para os Investidores**  
 - Acesso a ativos brasileiros sem as limitações de horário da Bovespa.  
@@ -131,7 +131,7 @@ O WIBOV adota um modelo sustentável de taxas para garantir sua operação e exp
 
 ## **Conclusão**  
 
-O WIBOV é mais do que uma ponte entre o mercado tradicional e a blockchain: é uma revolução na forma como acessamos e negociamos ativos financeiros. Combinando segurança, transparência e acessibilidade, o projeto tem o potencial de transformar o mercado brasileiro de ações em um ecossistema global e ininterrupto.  
+O WB3 é mais do que uma ponte entre o mercado tradicional e a blockchain: é uma revolução na forma como acessamos e negociamos ativos financeiros. Combinando segurança, transparência e acessibilidade, o projeto tem o potencial de transformar o mercado brasileiro de ações em um ecossistema global e ininterrupto.  
 
 **Junte-se à revolução!**  
 [https://wibov.com](https://wibov.com)
