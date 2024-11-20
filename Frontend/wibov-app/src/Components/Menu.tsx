@@ -16,7 +16,7 @@ import { faPencil } from '@fortawesome/free-solid-svg-icons/faPencil';
 import { faClose } from '@fortawesome/free-solid-svg-icons/faClose';
 import { faCalendar } from '@fortawesome/free-solid-svg-icons/faCalendar';
 import { faUsers } from '@fortawesome/free-solid-svg-icons/faUsers';
-import { faFileMedical, faHome } from '@fortawesome/free-solid-svg-icons';
+import { faCoins, faFileMedical, faFire, faHome, faPlus } from '@fortawesome/free-solid-svg-icons';
 import UserModal from './UserModal';
 import { useNavigate } from "react-router-dom";
 
@@ -54,17 +54,17 @@ export default function Menu() {
           setShowModal(false);
         }}
       ></UserModal>
-      <Navbar expand="lg" className="bg-body-tertiary mb-3">
+      <Navbar expand="lg" className="navbar-dark bg-dark">
         <Container>
-          <Navbar.Brand href="/">Global Eletronic Health Record (GEHR)</Navbar.Brand>
+          <Navbar.Brand href="/">WB3</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           {authContext.sessionInfo &&
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Link className='nav-link' to="/"><FontAwesomeIcon icon={faHome} fixedWidth /> Home</Link>
-                <Link className='nav-link' to="/agenda"><FontAwesomeIcon icon={faCalendar} fixedWidth /> Agenda</Link>
-                <Link className='nav-link' to="/my-records"><FontAwesomeIcon icon={faFileMedical} fixedWidth /> My Records</Link>
-                <Link className='nav-link' to="/patients"><FontAwesomeIcon icon={faUsers} fixedWidth /> Patients</Link>
+                <Link className='nav-link' to="/mint"><FontAwesomeIcon icon={faPlus} fixedWidth /> Mint</Link>
+                <Link className='nav-link' to="/burn"><FontAwesomeIcon icon={faFire} fixedWidth /> Burn</Link>
+                <Link className='nav-link' to="/order-book"><FontAwesomeIcon icon={faCoins} fixedWidth /> Comprar & Vender</Link>
               </Nav>
             </Navbar.Collapse>
           }
@@ -103,11 +103,6 @@ export default function Menu() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Container>
-        <Alert key="danger" variant="danger" onClose={() => setShow(false)} dismissible>
-          <FontAwesomeIcon icon={faWarning} /> This app is using the <strong>TestNet Network</strong>. Coins have no value here!
-        </Alert>
-      </Container>
     </>
   );
 }

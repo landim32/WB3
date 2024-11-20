@@ -7,12 +7,18 @@ import GehrProvider from './Contexts/Gehr/GehrProvider';
 import PatientPage from './Pages/PatientPage';
 import PatientListPage from './Pages/PatientListPage';
 import AgendaPage from './Pages/AgendaPage';
+import HomePage from './Pages/HomePage';
+import Container from 'react-bootstrap/esm/Container';
+import MintPage from './Pages/MintPage';
+import Footer from './Components/Footer';
+import BurnPage from './Pages/BurnPage';
+import OrderBookPage from './Pages/OrderBookPage';
 
 function Error404() {
   return (
-    <div>
+    <Container>
       <h2>Error 404</h2>
-    </div>
+    </Container>
   );
 }
 
@@ -21,6 +27,7 @@ function Layout() {
     <div>
       <Menu />
       <Outlet />
+      <Footer />
     </div>
   );
 }
@@ -32,12 +39,12 @@ function App() {
     <ContextContainer>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<PatientPage />} />
-          <Route path="/agenda" element={<AgendaPage />} />
-          <Route path="/my-records" element={<PatientPage />} />
-          <Route path="/patients">
-            <Route index element={<PatientListPage />} />
-            <Route path=":address" element={<PatientPage />} />
+          <Route index element={<HomePage />} />
+          <Route path="/mint" element={<MintPage />} />
+          <Route path="/burn" element={<BurnPage />} />
+          <Route path="/order-book">
+            <Route index element={<OrderBookPage />} />
+            <Route path=":asset" element={<OrderBookPage />} />
           </Route>
           <Route path="*" element={<Error404 />} />
         </Route>

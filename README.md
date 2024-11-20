@@ -7,7 +7,7 @@
 
 WIBOV (Wrapped IBOV) é uma iniciativa revolucionária que visa conectar o mercado tradicional de ações brasileiras com o ecossistema de blockchain. O projeto permite que ativos da Bolsa de Valores do Brasil sejam representados como tokens digitais, proporcionando liquidez, acessibilidade e a possibilidade de negociação 24/7.  
 
-Com a tecnologia de Atomic Swaps, os tokens WIBOV oferecem transparência e segurança aos investidores, garantindo que cada transação esteja diretamente vinculada a ativos reais. Este whitepaper detalha o funcionamento técnico e as vantagens do projeto, explicando os processos de criação, transação e queima de tokens.
+Com a tecnologia de Atomic Swaps, os tokens WIBOV oferecem transparência e segurança aos investidores, garantindo que cada transação esteja diretamente vinculada a ativos reais. Este whitepaper detalha o funcionamento técnico e as vantagens do projeto, explicando os processos de criação, transação, queima de tokens e a distribuição de dividendos.  
 
 ---
 
@@ -71,6 +71,19 @@ A queima de tokens WIBOV permite a conversão dos ativos empacotados de volta pa
 
 ---
 
+### **4. Dividendos**  
+Os investidores em tokens WIBOV têm direito a receber os dividendos gerados pelos ativos empacotados.  
+
+#### **Como funciona?**  
+1. **Reinvestimento Automático:**  
+   - Todo dia 1º de cada mês, os dividendos recebidos são usados para adquirir novos ativos na Bovespa.  
+2. **Distribuição Proporcional:**  
+   - Os tokens resultantes dessas compras são distribuídos automaticamente entre os investidores, proporcionalmente à quantidade de tokens WIBOV que cada um possui.  
+3. **Benefícios:**  
+   - Os detentores de tokens WIBOV se beneficiam do crescimento contínuo de seus ativos, sem necessidade de ação manual.  
+
+---
+
 ## **Segurança e Transparência**  
 
 - **Contratos Inteligentes:** Baseados em Atomic Swaps, garantindo que as transações sejam seguras, imutáveis e verificáveis.  
@@ -83,6 +96,7 @@ A queima de tokens WIBOV permite a conversão dos ativos empacotados de volta pa
 ### **Para os Investidores**  
 - Acesso a ativos brasileiros sem as limitações de horário da Bovespa.  
 - Liquidez global, com negociação disponível 24/7.  
+- Participação automática em dividendos, garantindo o crescimento dos investimentos.  
 - Taxas competitivas e processos automatizados.  
 
 ### **Para o Mercado Financeiro**  
