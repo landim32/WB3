@@ -36,10 +36,10 @@
     "web3": "^4.13.0"
   },
   "scripts": {
-    "start": "react-dotenv && react-scripts start",
-    "build": "react-dotenv && react-scripts build",
-    "test": "react-dotenv && react-scripts test",
-    "eject": "react-dotenv && react-scripts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -64,8 +64,7 @@
       "NODE_PATH",
       "REACT_APP_PRODUCTION",
       "PORT",
-      "GEHR_TOKEN_CONTRACT",
-      "GEHR_CONTRACT",
+      "SITE_BASENAME",
       "REACT_APP_NETWORK",
       "REACT_APP_CHAIN_URL",
       "REACT_APP_CHAIN_NAME",
